@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Receipt & Appointment</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #eef1f4;
+            padding: 30px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .row {
+            margin: 8px 0;
+        }
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h2>RECEIPT</h2>
+    <div class="row"><span class="label">Receipt No:</span> RCPT-XXXX</div>
+    <div class="row"><span class="label">Customer:</span> John Doe</div>
+    <div class="row"><span class="label">Payment Ref:</span> PAY-XXXX</div>
+    <div class="row"><span class="label">Amount:</span> 450.00 MAD</div>
+    <div class="row"><span class="label">Date:</span> 01/01/2026</div>
+
+    <br>
+
+    <h2>APPOINTMENT</h2>
+    <p>(To be added later)</p>
+
+</div>
+
+</body>
+</html>
